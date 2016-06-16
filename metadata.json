@@ -1,0 +1,15 @@
+{
+  "name": "jasonhancock-root",
+  "version": "1.0.0",
+  "author": "Jason Hancock",
+  "summary": "Installs Root User",
+  "license": "Apache-2.0",
+  "source": "https://github.com/jasonhancock/puppet-root",
+  "project_page": "https://github.com/jasonhancock/puppet-root",
+  "issues_url": "https://github.com/jasonhancock/puppet-root/issues",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ],
+  "data_provider": null
+}
+
