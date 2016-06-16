@@ -33,7 +33,7 @@ class root($password) {
     require => User['root'],
   }
 
-  $keys = hiera_hash('root::ssh_authorized_keys')
+  $keys = hiera_hash('root::ssh_authorized_keys', undef)
 
   if !empty($keys) {
     create_resources(ssh_authorized_key, $keys, { user => 'root' })
